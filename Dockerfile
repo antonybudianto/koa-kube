@@ -6,6 +6,8 @@ COPY package.json yarn.lock ./
 
 RUN yarn
 
+RUN echo 1
+
 COPY . .
 
 EXPOSE 3000
